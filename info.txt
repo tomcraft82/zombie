@@ -1,0 +1,12 @@
+The created app is using NodeJS Express framework and PostgreSQL database.
+
+I didn't have enough time to complete everything.
+
+I was planning also to:
+- fetch exchange rates from the API and storing them in some cache (probably Redis), when it expires or missing - some new service in "common" folder
+- add the value calculations for other currencies by using cached exchange rates
+- calculate total value of zomie items
+- add containerisation by building a base image with common stuff and additional dev and production images
+- create an OpenAPI 3.0 documentation for the API
+- add some unit tests with mocking
+- refactor services a bit
